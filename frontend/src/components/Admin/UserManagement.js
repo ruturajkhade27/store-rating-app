@@ -79,8 +79,8 @@ const UserManagement = () => {
     try {
       await userAPI.createUser(formData); 
       fetchUsers(); 
-      setShowCreateModal(false);
       alert("User Created Successfully.")
+      setShowCreateModal(false);
     } catch (error) {
       console.error('Error creating user:', error);
     }
