@@ -1,3 +1,19 @@
+## Live Demo Link
+https://store-rating-app-six.vercel.app
+
+### Admin Login
+Email : admin@example.com
+Password : Admin@123
+
+### User Login 
+Email : khaderuturaj27@gmail.com
+Password : Pass@123
+
+### Store Owner Login
+Email : rahul@gmail.com
+Password : Pass@123
+
+
 ## Installation and Setup Instructions
 
 ### Backend Setup
