@@ -79,10 +79,9 @@ const UserManagement = () => {
     try {
       await userAPI.createUser(formData); 
       alert("User Created Successfully.")
-      setTimeout(() => {
-      setShowCreateModal(false);
       fetchUsers();
-    }, 100);
+      setShowCreateModal(false);
+   
     } catch (error) {
       console.error('Error creating user:', error);
       alert("Failed to Create User.")
@@ -171,7 +170,6 @@ const UserManagement = () => {
       {showCreateModal && (
         <CreateUserModal
           isOpen={showCreateModal}
-          onClose={() => setShowCreateModal(false)}
           onCreate={handleCreateUser}
         />
       )}
